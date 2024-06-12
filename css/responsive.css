@@ -1,0 +1,177 @@
+@media(max-width:320px){}
+    
+
+@media (max-width: 480px) {
+        header {
+            flex-direction:row;
+            padding: 10px;
+        }
+    
+        nav {
+            flex-direction: row;
+            position: static;
+            margin-top: 20px;
+        }
+    
+        nav a {
+            margin: 5px 0;
+            padding: 10px;
+        }
+    
+        .contra {
+            margin-top: 20px;
+        }
+    
+        .hero h1 {
+            padding: 40px 20px;
+            font-size: 40px;
+            
+        }
+    
+        .img1 {
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+    
+        .img1 img {
+            margin: 5px;
+            width: 50px;
+        }
+    
+        .fotomia img {
+            margin-left: 0;
+            width: 100px;
+        }
+    
+        .about {
+            padding: 10px 20px;
+        }
+    
+        .portfolio {
+            padding: 10px 20px;
+        }
+    
+        .contenedor {
+            flex-direction: column;
+        }
+    
+        .proyect {
+            width: 250px;
+            height: 150px;
+        }
+    
+        button {
+            width: 30px;
+            height: 60px;
+            
+          
+        }
+    
+        input {
+            width: 90px;
+        }
+    
+        .mensaje {
+            width: 250px;
+        }
+    
+        .contacto button {
+            width: 120px;
+            margin-top: 20px;
+        }
+    
+        footer {
+            padding: 10px 0;
+        }
+    
+        .final {
+            font-size: 14px;
+        }
+    
+        .icono a i {
+            margin-top: 10px;
+        }
+    }
+@media(max-width:768px){
+
+    header {
+        padding: 0px; 
+    }
+
+    nav {
+        flex-direction:row; 
+        margin-top: 0px; 
+    }
+
+    nav a {
+        margin: 5px 0;
+        padding: 20px; 
+    }
+    .hero{
+        padding: 20px;
+
+    }
+    .hero h1 {
+        font-size: 15px; 
+        padding: 100px 120px; 
+    }
+
+    .img1 {
+        bottom:auto; 
+        display: flex; 
+        justify-content: center;
+        margin-top: 230px; 
+    }
+
+    .fotomia img {
+        width: -10%; 
+        max-width: 600px; 
+        
+    }
+
+    .about,.portfolio  .contacto {
+        padding: 5px;
+    }
+    input, .mensaje {
+        width: calc(100% - 0px); 
+    }
+
+    button {
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 50px 0; 
+    }
+   }
+@media(max-width:1024px){
+
+
+    .img1 {
+        bottom:auto; 
+        display: flex; 
+        justify-content: center;
+        margin-top: 350px;
+    }
+    .fotomia img {
+        width: -10%; 
+        max-width: 900px; 
+    }
+
+
+}
+
+@media(max-width:1280px){}
+@media(max-width:1440px){
+    .img1 {
+        bottom:auto; 
+        display: flex; 
+        justify-content: center;
+        margin-top: 400px;
+    }
+
+}
