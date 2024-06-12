@@ -1,0 +1,238 @@
+body{
+    background-color: rgb(33,33,33);
+    margin: 0;
+    padding: 0;
+}
+/*creamos el cabezal (logo,enlances)*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family:cursive;
+}
+
+.logo{
+    margin-right: auto; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 1;
+    position: relative;
+     
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0 15px;
+    font-size: 16px;
+ }
+nav a .fila{
+    
+    display: flex;
+    margin: 0 10px;
+    
+}
+.contra{
+    border:solid 3px rgb(141,47,195);
+    background-color: rgb(141,47,195);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+/*Empezamos modificacion el inicio*/
+.hero{
+    color: white;
+    
+    padding: 150;
+    background-image: url(../img/img1.jpg); 
+    background-size:cover; /* Ajusta el tamaño de la imagen para que cubra todo el cuerpo */
+    background-position: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    display: flex;
+
+}
+.hero h1{
+    
+    padding: 150px;
+}
+.img1 {
+   position:absolute;
+    bottom: 150px; 
+    left: 15%; 
+    background-color: rgb(75,69,79);
+    border-radius: 10px;
+    border:3px solid rgb(165,164,167);
+    padding: 10px;
+    
+    
+}
+
+.img1 img {
+    margin: 0 10px; 
+    width: 40px; 
+    height: auto;
+
+
+}
+
+
+
+
+.fotomia{
+    
+    
+    
+    flex:1;
+    text-align: center;
+
+}
+.fotomia img{
+    max-width: -10%;
+    height: auto;
+    margin-left: -150px;
+}
+
+/*Desarrollo sobre mi */
+.about{
+    text-align: center;
+    color: white;
+    padding: 150px;
+    background-image: url(../img/img2.jpg); 
+    background-size:cover; /* Ajusta el tamaño de la imagen para que cubra todo el cuerpo */
+    background-position: center; 
+    margin: 0;
+    
+}
+.about h1{
+    font-size: 40px;
+
+}
+.background{
+    border:5px rgb(165,164,167);
+    background-color: rgb(77,77,77);
+   padding: 50px;
+   border-radius: 4px;
+   
+}
+/*Agregamos proyecto*/
+
+.portfolio {
+    text-align: center;
+    color: white;
+    padding: 100px;
+    height: 600px; 
+    background-image: url(../img/img2.jpg); 
+    background-size:cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+}
+.portfolio h1{
+    font-size: 40px;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.flechas {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.flecha-izq, .flecha-der {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.svg {
+    display: flex;
+    
+    align-items: center;
+    padding: 10px;
+}
+
+.proyect {
+    max-width: 100%;
+    width: 600px;
+    height: 400px;
+}
+
+button {
+    border-color: rgb(190, 190, 190);
+    background-color: rgb(70, 70, 70);
+    width: 70px;
+    height: 80px;
+    position: relative;
+}
+/*Creamos formulario*/
+.contacto{
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, rgb(39,25,50),rgb(22,20,25));
+    padding: 100px;
+
+    
+}
+.contacto h1{
+    font-size: 40px;
+}
+input {
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(to right, rgb(39,25,50),rgb(22,20,25));
+    border: solid 2px rgb(49,41,56);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.mensaje{
+    width: 600px;
+    height: 100px;
+    
+}
+.contacto button{
+    border-color: rgb(140,46,202);
+    background-color: rgb(140,46,202);
+    border-radius: 8px;
+    color: white;
+    width: 70px;
+    height: 35px;
+}
+/*Pie de pagina*/
+footer{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration:none;
+}  
+
+.final{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+}
+
+.icono a i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
